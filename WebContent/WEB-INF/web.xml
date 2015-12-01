@@ -50,8 +50,7 @@
 	  	<taglib-uri>el_1a</taglib-uri>
 	  	<taglib-location>/WEB-INF/tld/elFunctionsTld.tld</taglib-location>
 	  </taglib>
-	  
-
+	   
 	  
 	  
   </jsp-config>

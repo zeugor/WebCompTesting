@@ -13,12 +13,23 @@
 <%@ taglib prefix="elF_1c" uri="/WEB-INF/tld/elFunctionsTld.tld" %>
 
 <!-- tld in a jar -->
+<%@ taglib prefix="jar1" uri="taglibJar2" %>
+<%@ taglib prefix="simpleTag" uri="simpleTagUri" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 </head>
 <body>
+
+<simpleTag:simpleTagName>
+	<jsp:attribute name="myCar">3</jsp:attribute>
+	<jsp:body>bodyTagSimple</jsp:body>
+</simpleTag:simpleTagName>
+
+<jar1:taglibJarName2 user="pepito">
+	<jsp:body>blablabla</jsp:body>
+</jar1:taglibJarName2>
 
 
 
